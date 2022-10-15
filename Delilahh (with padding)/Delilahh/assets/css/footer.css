@@ -1,0 +1,26 @@
+.footer-container {
+  padding: 5rem 0;
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+.socials {
+  display: flex;
+  font-size: 3rem;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.social {
+  transition: all 0.2s;
+}
+
+.social:hover {
+  opacity: 0.8;
+}
+
+.copyright {
+  user-select: none;
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+}

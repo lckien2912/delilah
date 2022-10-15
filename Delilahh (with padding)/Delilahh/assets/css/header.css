@@ -1,0 +1,53 @@
+.header-container {
+  font-weight: bold;
+  max-width: 100vw;
+  padding: 0 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.login,
+.shopping {
+  width: 150px;
+  transition: all 0.2s;
+}
+
+.shopping {
+  font-size: 3.4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login,
+.user-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login:hover,
+.shopping:hover {
+  opacity: 0.8;
+}
+
+.login {
+  justify-content: space-around;
+  font-size: 2.4rem;
+}
+
+.user-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+}
+
+.header-logo {
+  width: 20rem;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+}
