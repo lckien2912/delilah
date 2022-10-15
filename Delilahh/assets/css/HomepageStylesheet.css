@@ -103,6 +103,7 @@ ul {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 .nav-item {
   cursor: pointer;
@@ -315,6 +316,8 @@ div.loginContainer {
 div.loginContainer div.loginMyForm {
   width: 400px;
   margin-right: 3rem;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  padding: 2rem;
 }
 div.container div.loginMyForm h2 {
   color: var(--black-color);
