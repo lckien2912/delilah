@@ -283,7 +283,7 @@ ul {
 }
 .aboutUs__heading {
   color: var(--black-color);
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .aboutUs__description {
   color: var(--normal-gray);
@@ -297,41 +297,54 @@ ul {
 /* ABOUT PAGE */
 
 /* LOGIN */
-.loginForm {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  align-items: stretch;
-  font-size: 1rem;
+div.loginWrapper {
   max-width: 800px;
-  margin: 5rem auto;
+  margin: 2rem auto;
 }
-
-.loginForm label {
-  margin: 0.5rem 1rem 0.5rem 0;
-  font-size: 1.6rem;
+div.loginContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  padding: 3rem;
+  box-shadow: 0 50px 50px -50px var(--normal-gray);
 }
-
-.loginForm input {
-  vertical-align: middle;
-  padding: 1rem;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  margin: 1rem 0;
-  font-size: 1.6rem;
+.loginMyForm {
+  text-align: center;
 }
-
-.loginForm button {
-  padding: 1rem 2rem;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
+div.loginContainer div.loginMyForm {
+  width: 400px;
+  margin-right: 3rem;
+}
+div.container div.loginMyForm h2 {
+  color: var(--black-color);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+div.container div.loginMyForm input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  width: 100%;
+  border-bottom: 2px solid var(--black-color);
+  margin-bottom: 2.5rem;
+  padding: 0.8rem 0;
+  font-size: 1.4rem;
+}
+div.container div.loginMyForm button {
   color: white;
-  cursor: pointer;
+  background-color: #1c1c1e;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 1.6rem;
+  padding: 1rem 1.6rem;
+  font-weight: 500;
 }
-
-.loginForm button:hover {
-  background-color: royalblue;
+div.container div.loginImage img {
+  width: 300px;
 }
 /* LOGIN */
 
