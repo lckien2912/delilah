@@ -15,9 +15,9 @@
 html {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 62.5%;
-  padding: 0 100px;
+  /* padding: 0 100px; */
   box-sizing: border-box;
-  background-color: #fffae7;
+  /* background-color: #fffae7; */
 }
 
 a {
