@@ -285,12 +285,14 @@ ul {
 .aboutUs__heading {
   color: var(--black-color);
   font-size: 4rem;
+  margin-top: 1rem;
 }
 .aboutUs__description {
   color: var(--normal-gray);
-  font-size: 1.8rem;
-  margin: 5rem 0;
+  font-size: 1.6rem;
+  margin: 3rem 0;
   line-height: 1.8;
+  font-style: italic;
 }
 .aboutUs__image {
   width: 100%;
