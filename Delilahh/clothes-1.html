@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800&family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/ProductsStylesheet.css" />
+    <title>Vintage vintage pieces | DELILAH</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-container">
+        <a href="/login.html" class="login"
+          ><i class="fa-solid fa-user user-icon"></i> Log In</a
+        >
+        <a href="/"><img src="./assets/img/logo.jpg" class="header-logo" /></a>
+        <a href="##" class="shopping">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+        </a>
+      </header>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="#">Shop</a></li>
+          <li class="nav-item"><a href="/about-us.html">About us</a></li>
+        </ul>
+      </nav>
+
+      <!-- PRODUCT -->
+      <div class="productContainer">
+        <div class="productTopContent">
+          <div class="productPreviewItem">
+            <div class="productPreviewItemContainer">
+              <img
+                id="productExpandedImg"
+                src="./assets/img/products/c1.jpg"
+                style="width: 100%"
+              />
+            </div>
+            <div class="productPreviewItemRow">
+              <div class="productPreviewItemColumn">
+                <img
+                  src="./assets/img/products/c1.jpg"
+                  alt=""
+                  style="width: 100%"
+                  onclick="previewImage(this);"
+                />
+              </div>
+              <div class="productPreviewItemColumn">
+                <img
+                  src="./assets/img/products/c11.jpg"
+                  alt=""
+                  style="width: 100%"
+                  onclick="previewImage(this);"
+                />
+              </div>
+              <div class="productPreviewItemColumn">
+                <img
+                  src="./assets/img/products/c111.jpg"
+                  alt=""
+                  style="width: 100%"
+                  onclick="previewImage(this);"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="productGeneralInformation">
+            <h3 class="productName">VANESSA SCOTT</h3>
+            <p class="productType">Midi dresses</p>
+            <p class="productPrice">SAR 90.00</p>
+            <h3>Choose your size:</h3>
+            <div class="productSize productDropDown">
+              <select name="size" id="size" selected="S">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <!-- <span>S</span>
+              <div class="productDropdownContent">
+                <span class="productSizeAvailable">S</span>
+                <span class="productSizeAvailable">M</span>
+                <span class="productSizeAvailable">L</span>
+              </div> -->
+            </div>
+            <h3>Choose your color:</h3>
+            <div class="productSize productDropDown" style="border: none">
+              <span
+                style="background-color: red; color: white; border: none"
+              ></span>
+              <div class="productDropdownContent">
+                <span
+                  class="productSizeAvailable"
+                  style="background-color: red; border: none"
+                ></span>
+                <span
+                  class="productSizeAvailable"
+                  style="background-color: gray; border: none"
+                ></span>
+                <span
+                  class="productSizeAvailable"
+                  style="background-color: blue; border: none"
+                ></span>
+              </div>
+            </div>
+            <div class="productBtnActions">
+              <a href="https://www.fiverr.com/">
+                <button class="productBtn productBtnAddToShoppingBag">
+                  Add to shopping bag
+                </button>
+              </a>
+              <a href="https://www.fiverr.com/">
+                <button class="productBtn productBtnAddToDreamBox">Edit</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="productBottomContent">
+          <div class="productBottomContentLeft">
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Origin</h4>
+              <p class="productBottomInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+                laboriosam! Quasi pariatur perspiciatis reiciendis commodi.
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Measurements</h4>
+              <p class="productBottomInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                est eaque iure facilis, tenetur rerum?
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Brand</h4>
+              <p class="productBottomInfo">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                consectetur rem quisquam. Similique, vero nobis?
+              </p>
+            </div>
+          </div>
+          <div class="productBottomContentRight">
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">
+                <span>Material</span>
+                <span class="productBottomIcon">
+                  <i class="fa-solid fa-circle-info"></i>
+                </span>
+              </h4>
+              <p class="productBottomInfo">
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem omnis ipsam alias quos, debitis maiores!</span
+                >
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Condition</h4>
+              <p class="productBottomInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, sunt.
+              </p>
+            </div>
+            <div class="productBottomContentItem">
+              <h4 class="productBottomTitle">Era</h4>
+              <p class="productBottomInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                a, atque assumenda autem iure odio?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="footer-container">
+        <div class="socials">
+          <a class="social" href="https://www.facebook.com/">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a class="social" href="https://twitter.com/">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a class="social" href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <span class="copyright">@2022, Vintage pieces</span>
+      </footer>
+    </div>
+  </body>
+  <!-- JS SCRIPTS -->
+  <script>
+    function previewImage(imgs) {
+      console.log(imgs);
+      var expandImg = document.getElementById("productExpandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+  </script>
+</html>
